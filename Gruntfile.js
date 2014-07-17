@@ -10,7 +10,7 @@ module.exports = function(grunt){
         tasks: ['jshint:all']
       },
       tests: {
-        files: ['test/**/*.js'],
+        files: ['app/**/*.js', 'test/**/*.js'],
         tasks: ['shell:npmtest']
       }
     },
